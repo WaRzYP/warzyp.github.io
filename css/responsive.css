@@ -1,0 +1,66 @@
+@media (max-width: 1400px) {
+
+    .nav-reponsive{
+        visibility: visible;
+        height: 0;
+      }
+
+    .nav-container{
+        display: none;
+    }
+    .card-container{
+        margin-top: 90px;
+
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+    .forme{
+        display: none;
+    }
+    .btn-discover-responsive{
+        visibility: visible;
+        margin-left: 50px;
+    }
+    .titre{
+        margin: 0px 50px 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    .card-container:hover{
+        transform: none;
+      }
+
+    .forme{
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.link-nav{
+    visibility: hidden;
+}
+
+.titre{
+    font-size: 70px;
+    margin: 0px 50px 20px;
+    line-height: 85px;
+}
+
+.forme{
+    display: none;
+}
+
+}
+

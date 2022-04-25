@@ -1,0 +1,20 @@
+.competences-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.competences{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 400px;
+    height: 700px;
+}
+
+.ligne{
+    width: 2px;
+    height: 250px;
+    background-color: black;
+}
