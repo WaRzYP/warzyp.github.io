@@ -1,10 +1,29 @@
+@media (max-width: 1600px) {
+    .titre-competence{
+        border-bottom: none;
+    }
+}
+
+
 @media (max-width: 1400px) {
+    
+.responsive-block{
+    flex-direction: column;
+}
+
+    .logo{
+        color: black;
+    }
+
+    .logo-techno-container{
+        flex-direction: column;
+    }
 
     .nav-reponsive{
-        visibility: visible;
+        display: block;
         height: 0;
-      }
-
+    }
+    
     .nav-container{
         display: none;
     }
@@ -17,9 +36,33 @@
 
 
 @media (max-width: 1024px) {
+    
+    .titre-reponsive-competences{
+        font-size: 2em;
+        display: block;
+        padding-top: 120px;
+    }
+    
+    .logo-techno-container{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .logo-techno-comptences{
+        width: 150px;
+    }
+
+    .responsive-block{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
     .forme{
         display: none;
     }
+
     .btn-discover-responsive{
         visibility: visible;
         margin-left: 50px;
@@ -32,6 +75,15 @@
 
 @media (max-width: 768px) {
     
+    .projet-image{
+        width: 300px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        height: 600px;
+    }
+
     .card-container:hover{
         transform: none;
       }
@@ -43,6 +95,27 @@
 }
 
 @media (max-width: 576px) {
+
+    .projet-image{
+        display: none;
+    }
+
+    .titre-card{
+        font-size: 20px;
+    }
+
+    .titre-card-container{
+        width: auto;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        height: auto;
+        width: 200px;
+    }
+
 
 .logo{
     font-size: 1.3rem;

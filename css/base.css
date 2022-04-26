@@ -146,6 +146,6 @@ html {
   }
 
   .nav-reponsive{
-    visibility: hidden;
-    height: 0;
+    display: none;
+
   }
