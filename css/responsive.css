@@ -98,8 +98,8 @@
 }
 
 @media (max-width: 576px) {
-  .projet-image {
-    display: none;
+  .projet-container {
+    justify-content: center;
   }
 
   .titre-card {
@@ -115,7 +115,6 @@
   .card-container {
     flex-direction: column;
     height: auto;
-    width: 200px;
   }
 
   .logo {

@@ -1,58 +1,63 @@
-.titre-portfolio{
-    text-align: center;
-    padding-top: 100px;
-    font-weight: 500;
-    background-color: #4158D0;
-    background-color: #4158D0;
-    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    background-clip:text;    
-    -webkit-background-clip: text;
-    color: transparent;
+.titre-portfolio {
+  text-align: center;
+  padding-top: 100px;
+  font-weight: bold;
+  background-color: #4158d0;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    315deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-
-.projet-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-}  
-
-
-.titre-card-container{
-    width: 300px;
-    padding: 40px;
-    margin: auto;
+.projet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
 }
 
-.titre-card{
-    text-align: center;
+.titre-card-container {
+  width: 300px;
+  padding: 40px;
+  margin: auto;
 }
 
-.card-container{
-    display: flex;
-    height: 350px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
-    border-radius: 10px;
-    transition: 0.5s;
-    margin: 50px;
+.titre-card {
+  text-align: center;
 }
 
-.projet-image{
-    width: 300px;
-    border-radius: 5px;
+.card-container {
+  display: flex;
+  height: 350px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  border-radius: 14px;
+  transition: 0.5s;
+  margin: 50px;
 }
 
-.techno-container{
-    text-align: center;
-}
-
-.logo-techno{
-    width: 50px;
-    padding: 10px;
-}
-
-.card-container:hover{
+.card-container:hover {
   transform: scale(1.02) translateY(-10px);
+}
+
+.projet-image {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.techno-container {
+  text-align: center;
+}
+
+.logo-techno {
+  width: 50px;
+  padding: 10px;
 }
