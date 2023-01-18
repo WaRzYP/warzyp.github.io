@@ -1,50 +1,54 @@
-.competence-container{
-    display: flex;
+.competence-container {
+  display: flex;
 }
 
-
-.logo{
-    color: white;
+.logo {
+  color: white;
 }
 
-.titre-competence{
-    font-size: 70px;
-    color: white;
-    border-bottom: 3px solid white;
-    text-align: center;
-    padding: 30px;
+.titre-competence {
+  font-size: 70px;
+  color: white;
+  border-bottom: 3px solid white;
+  text-align: center;
+  padding: 30px;
 }
 
-.forme{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    background-color: #4158D0;
-    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    width: 50%;
-    height: 100vh;
-    right: 0;
+.forme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    315deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  width: 50%;
+  height: 100vh;
+  right: 0;
 }
 
-.logo-techno-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+.logo-techno-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
-.logo-techno-competences{
-    width: 7em;
-    border-radius:100%;
-    padding: 20px;
+.logo-techno-competences {
+  width: 7em;
+  border-radius: 100%;
+  padding: 20px;
 }
 
-.titre-reponsive-competences{
-    display: none;
+.titre-reponsive-competences {
+  display: none;
 }
 
-.responsive-block{
-    display: flex;
-    flex-wrap: wrap;
+.responsive-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
